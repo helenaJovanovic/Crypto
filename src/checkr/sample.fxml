@@ -11,7 +11,8 @@
             <ToolBar fx:id="toolbar" nodeOrientation="RIGHT_TO_LEFT" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #242121; -fx-border-width: 2px; -fx-border-color: #1f1c1c;">
               <items>
                 <Button fx:id="exitbttn" mnemonicParsing="false" onAction="#exit_action" style="-fx-background-color: #2b2a2a;" text="X" textFill="#655050" />
-                  <Label text="StockCheck                                        " textFill="WHITE">
+                  <Button fx:id="onTopButton" mnemonicParsing="false" style="-fx-background-color: #2b2a2a;" text="^" textFill="#655050" />
+                  <Label text="CryptoCheck                                   " textFill="WHITE">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -20,6 +21,6 @@
             </ToolBar>
          </center>
       </BorderPane>
-      <ListView fx:id="lista" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #2b2a2a;" />
+      <ListView fx:id="lista" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #2b2a2a;" VBox.vgrow="ALWAYS" />
    </children>
 </VBox>
