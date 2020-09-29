@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CryptoCheck:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CryptoCheck_jar</output-path>
+    <root id="archive" name="CryptoCheck.jar">
+      <element id="module-output" name="CryptoCheck" />
+    </root>
+  </artifact>
+</component>
